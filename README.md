@@ -9,13 +9,36 @@ Here's a finished frame, after gluing and painting:
 
 ![Frame that has been manufactured from a dxf produced by this script.](https://user-images.githubusercontent.com/9170476/50379241-97b39580-062b-11e9-8f0b-10e60ca88d9b.jpg)
 
-Customized illustration by my fiancée [@moraesnika](https://instagram.com/moraesnika), at our store: [N Design](https://instagram.com/lojandesign).
+Customized illustration by my fiancee [@moraesnika](https://instagram.com/moraesnika), at our store: [N Design](https://instagram.com/lojandesign).
 
 ## Description
 
 This project consists of a Python script that takes two Integers as arguments to draw a frame's 2D profile of the given size.
 
 The output file uses the **.dxf** extension, which can be used for laser cutting.
+
+## Installation
+
+```sh
+pip install dxf-frame-generator
+```
+
+## Usage example
+
+The following command will create a file `frame_200x200.dxf` on the current working directory:
+
+Windows:
+```sh
+>dxf-frame-generator 200 200
+C:\Users\Username\...\frame_210x297.dxf
+```
+
+This is how the file looks like when imported on a laser fabrication software:
+![DXF file when imported on a laser fabrication software.](https://user-images.githubusercontent.com/9170476/50379245-bc0f7200-062b-11e9-9054-573435e4fe03.png)
+
+## Changelog
+
+- 0.0.1: Initial release;
 
 ## Links
 - Repository: https://github.com/umluizlima/dxf-frame-generator
