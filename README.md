@@ -19,18 +19,25 @@ The output file uses the **.dxf** extension, which can be used for laser cutting
 
 ## Installation
 
+- Windows
+
 ```sh
 pip install dxf-frame-generator
+```
+
+- Linux
+
+```sh
+sudo pip3 install dxf-frame-generator
 ```
 
 ## Usage example
 
 The following command will create a file `frame_200x200.dxf` on the current working directory:
 
-Windows:
 ```sh
->dxf-frame-generator 200 200
-C:\Users\Username\...\frame_210x297.dxf
+> dxf-frame-generator 200 200
+path\to\current\directory\frame_210x297.dxf
 ```
 
 This is how the file looks like when imported on a laser fabrication software:
