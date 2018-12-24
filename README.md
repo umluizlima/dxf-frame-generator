@@ -9,13 +9,13 @@ Here's a finished frame, after gluing and painting:
 
 ![Frame that has been manufactured from a dxf produced by this script.](https://user-images.githubusercontent.com/9170476/50379241-97b39580-062b-11e9-8f0b-10e60ca88d9b.jpg)
 
-Customized illustration by my fiancee [@moraesnika](https://instagram.com/moraesnika), at our store: [N Design](https://instagram.com/lojandesign).
+Customized illustration by [@moraesnika](https://instagram.com/moraesnika), at [N Design](https://instagram.com/lojandesign).
 
 ## Description
 
 This project consists of a Python script that takes two Integers as arguments to draw a frame's 2D profile of the given size.
 
-The output file uses the **.dxf** extension, which can be used for laser cutting.
+The output file has the **.dxf** extension, which can be used for laser cutting.
 
 ## Installation
 
